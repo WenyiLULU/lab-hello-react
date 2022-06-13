@@ -37,5 +37,42 @@
   }
 }
 .header{
-  background-color: navy;
+  background-image: url(./images/create-a-full-web-application-using-nodejs-and-reactjs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 50px 0 80px;
+  height: 60vh;
+  color: white;
+  text-align: start;
+}
+.navbar{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin-bottom: 50px;
+  width: 250px;
+  font-size: 50px;
+}
+p{
+  margin: 0;
+}
+button{
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgb(211, 209, 209);
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+ 
+}
+.elements{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  padding: 60px;
+  text-align: start;
+  color: rgb(92, 91, 91);
 }
